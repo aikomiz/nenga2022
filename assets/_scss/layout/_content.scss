@@ -1,0 +1,42 @@
+.l-container {
+  max-width: $content-width;
+  width: 92%;
+  margin: 0 auto;
+
+  @include mq() {
+    width: 93.75%;
+    min-width: $inner-min-width;
+  }
+}
+
+.l-inner {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 0;
+
+  @include mq() {
+    min-width: $inner-min-width;
+    padding: 0 7.3333%;
+  }
+}
+
+.l-section {
+  &+.l-section {
+    margin-top: 32px;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-color {
+    background-color: $color-red;
+    padding: 40px 0;
+    margin: 40px 0 0 0;
+  }
+}
+
+
+.l-footer {
+  margin-top: 32px;
+}

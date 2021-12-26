@@ -1,0 +1,55 @@
+// -----------------------------------
+//  Layout Settings
+//------------------------------------
+
+// Contentの幅
+$content-width: 1200px !default;
+$inner-width: 1024px !default;
+$inner-min-width: 960px;
+
+//====================================
+//  Color Setings
+//====================================
+
+// --- color ---
+$color-white: #fff;
+$color-red: #B64A33;
+$color-yellow: #EEFF00;
+$color-darkGray: #979797;
+
+$color-lightGray: #f7f7f7;
+$color-black: #222;
+
+
+
+// テキストの色 #222
+$primary-text-color: #222;
+
+
+
+//====================================
+//  Typeface
+//====================================
+$font-set-primary: "游ゴシック体",
+"YuGothic",
+"游ゴシック Medium",
+"Yu Gothic Medium",
+"游ゴシック",
+"Yu Gothic",
+"ヒラギノ角ゴ Pro W3",
+"Hiragino Kaku Gothic Pro",
+"Meiryo UI",
+"メイリオ",
+Meiryo,
+sans-serif;
+
+$font-set-primary_bold: "游ゴシック体",
+"YuGothic",
+"游ゴシック",
+"Yu Gothic",
+"ヒラギノ角ゴ Pro W3",
+"Hiragino Kaku Gothic Pro",
+"Meiryo UI",
+"メイリオ",
+Meiryo,
+sans-serif;

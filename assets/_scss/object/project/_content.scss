@@ -1,0 +1,108 @@
+.p-footer {
+  width: 100%;
+  text-align: center;
+  color: $color-white;
+  background-color: $color-red;
+  padding: 16px 0;
+  margin: 32px auto 0 auto;
+
+  @include mq() {
+    min-width: $inner-min-width;
+  }
+}
+
+.p-hero {
+  width: 100%;
+  background: linear-gradient(180deg, $color-red 0%, $color-red 76%, $color-white 76%, $color-white 100%);
+  padding: 16px 0;
+  margin: 0 auto 40px auto;
+
+  @include mq() {
+    min-width: $inner-min-width;
+  }
+}
+
+.p-photoList {
+  margin-top: 24px;
+
+  @include mq() {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  li {
+    position: relative;
+    // flex-basis: 48%;
+    // margin-right: 4%;
+    margin-bottom: 2%;
+    flex-basis: 100%;
+
+    @include mq() {
+      margin-right: 2%;
+      flex-basis: 32%;
+    }
+
+    &:nth-child(2n) {
+      margin-right: 0;
+
+      @include mq() {
+        margin-right: 2%;
+      }
+    }
+
+    &:nth-child(3n) {
+      @include mq() {
+        margin-right: 0;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+
+  }
+
+  &__text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: $color-white;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  }
+
+  &__month {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $color-red;
+    color: $color-white;
+    padding: 8px;
+  }
+}
+
+.p-heading {
+  background-color: $color-darkGray;
+  color: $color-white;
+  font-size: 2rem;
+  padding: 0.4em;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+.p-textOmochi {
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+  color: $color-red;
+  // font-weight: bold;
+  // font-family: $font-set-primary_bold;
+}
+
+.p-imgOmochi {
+  img {
+    max-width: 54%;
+  }
+}
