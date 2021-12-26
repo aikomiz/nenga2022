@@ -20,6 +20,10 @@
   @include mq() {
     min-width: $inner-min-width;
   }
+
+  img {
+    max-width: 90%;
+  }
 }
 
 .p-photoList {
